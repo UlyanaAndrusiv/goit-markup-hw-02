@@ -61,6 +61,9 @@ ul{
     letter-spacing: 0.02em;
     font-weight: 500;
 }
+.current{
+    color: var(--color-wab)
+}
 .navigation-link:hover,.mail:hover,.phone:hover{
     color: var(--color-wab)    ;
 }
@@ -78,20 +81,13 @@ padding-top: 32px;
 
 .mail{
     margin-right: 50px;
-    margin-left: px;
+   
+}
+
+.phone , .mail{
     color: var(--color-link);
     text-decoration: none;
     font-family: var(--main-fant);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-
-.phone{
-    color: var(--color-link);
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
@@ -138,7 +134,10 @@ padding-top: 32px;
     align-items: center;
     text-align: center;
     color: var(--color-white);
+
+    cursor: pointer;
 }
+
 
 /* послуги */
 .services{

@@ -58,6 +58,8 @@ ul{
     font-size: 14px;
     font-weight: 500;
 }
+.current{
+    color: var(--color-wab)}
 .navigation-link:hover,.mail:hover,.phone:hover{
     color: var(--color-wab)    ;
 }
@@ -75,15 +77,10 @@ padding-top: 32px;
 
 .mail{
     margin-right: 50px;
-    margin-left: px;
-    color:  var(--color-link);
-    text-decoration: none;
-    font-family: var(--main-fant);
-    font-size: 14px;
-    font-weight: 500;
+   
 }
 
-.phone{
+.phone, .mail{
     color: var(--color-link);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
